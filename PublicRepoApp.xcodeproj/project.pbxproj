@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		ED0603EA2383EC2F00FD268F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0603E92383EC2F00FD268F /* AppDelegate.swift */; };
-		ED0603EC2383EC2F00FD268F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0603EB2383EC2F00FD268F /* SceneDelegate.swift */; };
-		ED0603EE2383EC2F00FD268F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0603ED2383EC2F00FD268F /* ViewController.swift */; };
 		ED0603F12383EC2F00FD268F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0603EF2383EC2F00FD268F /* Main.storyboard */; };
 		ED0603F32383EC3000FD268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0603F22383EC3000FD268F /* Assets.xcassets */; };
 		ED0603F62383EC3000FD268F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0603F42383EC3000FD268F /* LaunchScreen.storyboard */; };
 		ED0604012383EC3000FD268F /* PublicRepoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0604002383EC3000FD268F /* PublicRepoAppTests.swift */; };
+		ED0604262383EDA900FD268F /* ArtistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06041F2383EDA900FD268F /* ArtistsViewController.swift */; };
+		ED0604272383EDA900FD268F /* ArtistsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0604202383EDA900FD268F /* ArtistsInteractor.swift */; };
+		ED0604282383EDA900FD268F /* ArtistsContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0604212383EDA900FD268F /* ArtistsContract.swift */; };
+		ED0604292383EDA900FD268F /* ArtistsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0604222383EDA900FD268F /* ArtistsRouter.swift */; };
+		ED06042A2383EDA900FD268F /* ArtistsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0604232383EDA900FD268F /* ArtistsPresenter.swift */; };
+		ED06042B2383EDA900FD268F /* ArtistsModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0604242383EDA900FD268F /* ArtistsModuleFactory.swift */; };
+		ED06042C2383EDA900FD268F /* ArtistsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0604252383EDA900FD268F /* ArtistsService.swift */; };
+		ED0604302383EEA200FD268F /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06042E2383EEA200FD268F /* CategoryTableViewCell.swift */; };
+		ED0604312383EEA200FD268F /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED06042F2383EEA200FD268F /* CategoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +36,6 @@
 /* Begin PBXFileReference section */
 		ED0603E62383EC2F00FD268F /* PublicRepoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicRepoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0603E92383EC2F00FD268F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED0603EB2383EC2F00FD268F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED0603ED2383EC2F00FD268F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED0603F02383EC2F00FD268F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED0603F22383EC3000FD268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED0603F52383EC3000FD268F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +43,15 @@
 		ED0603FC2383EC3000FD268F /* PublicRepoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PublicRepoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0604002383EC3000FD268F /* PublicRepoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRepoAppTests.swift; sourceTree = "<group>"; };
 		ED0604022383EC3000FD268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED06041F2383EDA900FD268F /* ArtistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsViewController.swift; sourceTree = "<group>"; };
+		ED0604202383EDA900FD268F /* ArtistsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsInteractor.swift; sourceTree = "<group>"; };
+		ED0604212383EDA900FD268F /* ArtistsContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsContract.swift; sourceTree = "<group>"; };
+		ED0604222383EDA900FD268F /* ArtistsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsRouter.swift; sourceTree = "<group>"; };
+		ED0604232383EDA900FD268F /* ArtistsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsPresenter.swift; sourceTree = "<group>"; };
+		ED0604242383EDA900FD268F /* ArtistsModuleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsModuleFactory.swift; sourceTree = "<group>"; };
+		ED0604252383EDA900FD268F /* ArtistsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsService.swift; sourceTree = "<group>"; };
+		ED06042E2383EEA200FD268F /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		ED06042F2383EEA200FD268F /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +93,10 @@
 		ED0603E82383EC2F00FD268F /* PublicRepoApp */ = {
 			isa = PBXGroup;
 			children = (
+				ED06040C2383ECC200FD268F /* Models */,
+				ED06040D2383ECE100FD268F /* Services */,
+				ED06040B2383ECB800FD268F /* Modules */,
 				ED0603E92383EC2F00FD268F /* AppDelegate.swift */,
-				ED0603EB2383EC2F00FD268F /* SceneDelegate.swift */,
-				ED0603ED2383EC2F00FD268F /* ViewController.swift */,
 				ED0603EF2383EC2F00FD268F /* Main.storyboard */,
 				ED0603F22383EC3000FD268F /* Assets.xcassets */,
 				ED0603F42383EC3000FD268F /* LaunchScreen.storyboard */,
@@ -97,6 +112,52 @@
 				ED0604022383EC3000FD268F /* Info.plist */,
 			);
 			path = PublicRepoAppTests;
+			sourceTree = "<group>";
+		};
+		ED06040B2383ECB800FD268F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ED06041E2383EDA900FD268F /* Artists */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		ED06040C2383ECC200FD268F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED06040D2383ECE100FD268F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ED06041E2383EDA900FD268F /* Artists */ = {
+			isa = PBXGroup;
+			children = (
+				ED06042D2383EE8600FD268F /* Cells */,
+				ED06041F2383EDA900FD268F /* ArtistsViewController.swift */,
+				ED0604202383EDA900FD268F /* ArtistsInteractor.swift */,
+				ED0604212383EDA900FD268F /* ArtistsContract.swift */,
+				ED0604222383EDA900FD268F /* ArtistsRouter.swift */,
+				ED0604232383EDA900FD268F /* ArtistsPresenter.swift */,
+				ED0604242383EDA900FD268F /* ArtistsModuleFactory.swift */,
+				ED0604252383EDA900FD268F /* ArtistsService.swift */,
+			);
+			path = Artists;
+			sourceTree = "<group>";
+		};
+		ED06042D2383EE8600FD268F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED06042E2383EEA200FD268F /* CategoryTableViewCell.swift */,
+				ED06042F2383EEA200FD268F /* CategoryTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +244,7 @@
 				ED0603F62383EC3000FD268F /* LaunchScreen.storyboard in Resources */,
 				ED0603F32383EC3000FD268F /* Assets.xcassets in Resources */,
 				ED0603F12383EC2F00FD268F /* Main.storyboard in Resources */,
+				ED0604312383EEA200FD268F /* CategoryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +262,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED0603EE2383EC2F00FD268F /* ViewController.swift in Sources */,
+				ED0604282383EDA900FD268F /* ArtistsContract.swift in Sources */,
+				ED06042B2383EDA900FD268F /* ArtistsModuleFactory.swift in Sources */,
+				ED06042C2383EDA900FD268F /* ArtistsService.swift in Sources */,
+				ED0604292383EDA900FD268F /* ArtistsRouter.swift in Sources */,
 				ED0603EA2383EC2F00FD268F /* AppDelegate.swift in Sources */,
-				ED0603EC2383EC2F00FD268F /* SceneDelegate.swift in Sources */,
+				ED0604262383EDA900FD268F /* ArtistsViewController.swift in Sources */,
+				ED0604272383EDA900FD268F /* ArtistsInteractor.swift in Sources */,
+				ED06042A2383EDA900FD268F /* ArtistsPresenter.swift in Sources */,
+				ED0604302383EEA200FD268F /* CategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
